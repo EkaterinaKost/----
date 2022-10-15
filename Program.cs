@@ -1,14 +1,32 @@
-﻿int numberA = Convert.ToInt32(Console.ReadLine());
+﻿Console.WriteLine("введите число от 1 до 7");
 
-int numberB = Convert.ToInt32(Console.ReadLine());
+int numberA = Convert.ToInt32(Console.ReadLine());
 
-int square = numberB*numberB;
-
-if (numberA == square)
+if (numberA == 1)
 {
-    Console.WriteLine("первое число являетс квадратом второго");
+    Console.WriteLine("понедельник (");
+    }
+if (numberA == 2)
+{
+    Console.WriteLine("вторник");    
 }
-else
+if (numberA == 3)
 {
-    Console.WriteLine("первое число не являетс квадратом второго");
+    Console.WriteLine("среда");
+}
+if (numberA == 4)
+{
+    Console.WriteLine("четверг");
+}
+if (numberA == 5)
+{
+    Console.WriteLine("пятничка");
+    }
+if (numberA == 6)
+{
+    Console.WriteLine("суббота");
+}
+if (numberA == 7)
+{
+    Console.WriteLine("воскресенье");
 }
