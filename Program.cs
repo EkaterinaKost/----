@@ -1,32 +1,12 @@
-﻿Console.WriteLine("введите число от 1 до 7");
+﻿Console.WriteLine("введите положительное число");
 
 int numberA = Convert.ToInt32(Console.ReadLine());
 
-if (numberA == 1)
+int numberB = - numberA;
+
+while (numberB <= numberA)
 {
-    Console.WriteLine("понедельник (");
-    }
-if (numberA == 2)
-{
-    Console.WriteLine("вторник");    
-}
-if (numberA == 3)
-{
-    Console.WriteLine("среда");
-}
-if (numberA == 4)
-{
-    Console.WriteLine("четверг");
-}
-if (numberA == 5)
-{
-    Console.WriteLine("пятничка");
-    }
-if (numberA == 6)
-{
-    Console.WriteLine("суббота");
-}
-if (numberA == 7)
-{
-    Console.WriteLine("воскресенье");
+    Console.Write(numberB );
+    Console.Write(";");
+    numberB+=1;
 }
